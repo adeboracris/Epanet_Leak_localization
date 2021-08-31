@@ -23,12 +23,12 @@
 
   ## How to use
   
-  In the folder <b>Leak_localization</b> have: 3 data .mat coresponding the Hanoi network data (graph, topologie, measurements) and 2 folder .m that are the base code.
+  The folder <b>Leak_localization</b> contain: 3 data .mat coresponding the Hanoi network data (graph, topologie, measurements) and 2 folder .m that are the base code.
   The code that generates the plot is: main.m. The code will generate the following plot:
   
   <img src="https://github.com/adeboracris/Epanet_Leak_localization/blob/main/IMG/atd.jpg" width="500"> 
   
-   In the folder <b>Sensor validation</b> have: a .mat file with some Hanoi measurements information and the main code (Spacial_residual.m) that is used to generate the following plots:
+   The folder <b>Sensor validation</b> contain: a .mat file with some Hanoi measurements information and the main code (Spacial_residual.m) that is used to generate the following plots:
   
   <img src="https://github.com/adeboracris/Epanet_Leak_localization/blob/main/IMG/filtered.jpg" width="400"> 
   
