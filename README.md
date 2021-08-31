@@ -5,13 +5,15 @@
   ## Table of Contents
 - [Introduction](#introduction)
 - [Requirements](#requirements)
+- [How to use](#How-to-use)
 - [Contributors](#Contributors)
   
   
   ## Introduction
     This project refers to the leak localization, and sensor validation method explained in the 'Robust Data-Driven Leak Localization In Water DistributionNetworks Using Pressure Measurements And TopologicalInformation' article.  
   
-  This is the research carried out within Universidad Politécnica de Cataluña (UPC) and École nationale supérieure des Mines-Télécom de Lille-Douai (IMT). The PHD candidate is Débora Alves with the theme Leak Supervision in Water Distribution Networks.
+  This is the research carried out within Universidad Politécnica de Cat
+  aluña (UPC) and École nationale supérieure des Mines-Télécom de Lille-Douai (IMT). The PHD candidate is Débora Alves with the theme Leak Supervision in Water Distribution Networks.
 
  
   
@@ -19,7 +21,18 @@
 
 * [Matlab](http://www.mathworks.com/)
 
-
+  ## How to use
+  
+  In the folder <b>Leak_localization</b> have: 3 data .mat coresponding the Hanoi network data (graph, topologie, measurements) and 2 folder .m that are the base code.
+  The code that generates the plot is: main.m. The code will generate the following plot:
+  
+  <img src="https://github.com/adeboracris/Epanet_Leak_localization/blob/main/IMG/atd.jpg" width="500"> 
+  
+   In the folder <b>Sensor validation</b> have: a .mat file with some Hanoi measurements information and the main code (Spacial_residual.m) that is used to generate the following plots:
+  
+  <img src="https://github.com/adeboracris/Epanet_Leak_localization/blob/main/IMG/filtered.jpg" width="400"> 
+  
+  <img src="https://github.com/adeboracris/Epanet_Leak_localization/blob/main/IMG/Spacial.jpg" width="400"> 
 
   ## Contributors
   
@@ -31,3 +44,7 @@
   [Lala Rajaoarisoa](https://www.researchgate.net/profile/Lala-Rajaoarisoa)
   
  
+  
+  ==================================
+  
+  &uparrow; [Back to top](#table-of-contents)
