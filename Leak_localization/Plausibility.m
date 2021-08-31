@@ -1,6 +1,4 @@
 function [Pl_n,di] = Plausibility(elec)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
 %{
  Criar novo PL
 %}
@@ -27,9 +25,6 @@ end
 
 %3 Create plausability
 for i=1:31
-    if i == 6
-%         i
-    end
     maxi=[];
     for j=1:length(elec_sensors{1,1})
         maxi(j)= sum(ismember(P{1,j},node_l{1,i}));
@@ -55,7 +50,5 @@ di(di==0)=1;
 Pl_n= Pl.*di;
 % Pl_n=1./Pl_n;
 Pl_n=Pl_n./sum(Pl_n);
-
-
 end
 
