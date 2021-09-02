@@ -19,6 +19,11 @@ elec_sensors{4} = [6,9,12,15,17,24,21,22,28,29,31];
 TrainingFlow=TrainingHead(:,33);
 TrainingPressure=TrainingHead(:,[1:31]);
 
+figure
+plot(TrainingFlow);hold on
+ylabel('Flow [l/s]');xlabel('Time horizon [h]')
+axis([1 length(TrainingFlow), 1000 5000])
+
 %Curent data : 4 days
 Flow_leak=TestingHead(:,33,:);
 Pressure_leak=TestingHead(:,[1:31],:);
